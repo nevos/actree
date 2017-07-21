@@ -1,0 +1,15 @@
+{
+  "name": "actree",
+  "version": "1.0.0",
+  "description": "make a tree to get autocomplete results",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "actree"
+  },
+  "author": "nevos",
+  "license": "ISC"
+}
