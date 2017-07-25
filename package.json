@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "actree"
+    "url": "git://github.com/nevos/actree.git"
   },
+  "homepage": "https://github.com/nevos/actree",
   "author": "nevos",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.3.0"
   }
 }
