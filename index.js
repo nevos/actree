@@ -1,10 +1,6 @@
-console.log("my node actree") ;
-
-actree = require('./actree');
-
-var o1 = { a: 1 };
-var o2 = { b: 2 };
-var o3 = { c: 3 };
-//var a1 = actree.addWordToTree(o1,o2) ;
-//console.log(actree.addWordToTree(a1,o3)) ;
+var fs = require('fs');
+var actree = require('./actree');
+var letterNode = require('./actree').letterNode ;
+var addToTree = require('./actree').addToTree ;
+var testTree = require('./sampleTree.js');
 

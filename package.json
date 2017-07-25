@@ -1,7 +1,7 @@
 {
   "name": "actree",
   "version": "1.0.0",
-  "description": "make a tree to get autocomplete results",
+  "description": "makes an auxilary tree to get o(n) efficient autocomplete results",
   "main": "index.js",
   "scripts": {
     "test": "test"
@@ -11,5 +11,8 @@
     "url": "actree"
   },
   "author": "nevos",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.3.0"
+  }
 }
