@@ -1,6 +1,6 @@
 {
   "name": "actree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "makes an auxilary tree to get o(n) efficient autocomplete results",
   "main": "index.js",
   "scripts": {
