@@ -1,6 +1,6 @@
-{
+touch{
   "name": "actree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "makes an auxilary tree to get o(n) efficient autocomplete results",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nevos/actree.git"
+    "url": "actree"
   },
-  "homepage": "https://github.com/nevos/actree",
   "author": "nevos",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^4.3.0"
   }
 }
