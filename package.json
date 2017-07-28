@@ -13,6 +13,5 @@
   "author": "nevos",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.3.0"
   }
 }
