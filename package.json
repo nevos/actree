@@ -1,17 +1,17 @@
 {
   "name": "actree",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "makes an auxilary tree to get O(n) efficient autocomplete results",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
-    "url": "actree"
+    "url": "git://github.com/nevos/actree.git"
   },
+  "bugs": {
+    "url": "https://github.com/nevos/actree/issues"
+  },
+  "homepage": "https://github.com/nevos/actree",
   "author": "nevos",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {}
 }

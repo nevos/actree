@@ -66,7 +66,9 @@ function useJSONTree4() {
 	console.log("\nfound: " + JSON.stringify(res,null,1));
 }
 
-useJSONTree1() ;
-useJSONTree2() ;
-useJSONTree3() ;
-useJSONTree4() ;
+exports.useJSONTree = function useJSONTree() {
+	useJSONTree1() ;
+	useJSONTree2() ;
+	useJSONTree3() ;
+	useJSONTree4() ;
+}

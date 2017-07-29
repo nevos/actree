@@ -1,7 +1,6 @@
-var actree = require("./actree");
+var actree = require("./acTree");
 
-
-function createJSONTree() {
+exports.createJSONTree = function createJSONTree() {
 	// create tree 
 	var tree;
 
@@ -28,5 +27,3 @@ function createJSONTree() {
 		});
 	});
 }
-
-createJSONTree();

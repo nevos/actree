@@ -34,6 +34,22 @@ API
     
 	var res = acTree.autocompleteInput(tree);
 
+##### #createJSONTree()
+    
+    call this function to recreate a new tree in data.json from sampleList file
+
+	actree.createJSONTree() ;
+
+##### #useJSONTree()
+    
+    call this function to view an existing usage sample
+
+	actree.useJSONTree() ;
+
+
+actree.useJSONTree() ; 
+
+
 ### LICENSE
     
     ISC , nevonat@gmail.com
