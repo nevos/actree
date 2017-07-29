@@ -14,7 +14,7 @@ API
 
 ##### require
 
-    var acTree = require("./acTree");
+    var acTree = require("actree");
         
 ##### #letterNode - create a word
 

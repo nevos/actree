@@ -54,14 +54,14 @@ function useJSONTree2(){
 
 
 function useJSONTree3() {
-	var tree = JSON.parse(fs.readFileSync("data.json", "utf8"));
+	var tree = JSON.parse(fs.readFileSync(__dirname + "/data.json", "utf8"));
 	var search = "ali" ;
 	var res = autocomplete(tree,search) ;
 	console.log("searched: " + search +  "\nfound: " + JSON.stringify(res,null,1));
 }
 
 function useJSONTree4() {
-	var tree = JSON.parse(fs.readFileSync("data.json", "utf8"));
+	var tree = JSON.parse(fs.readFileSync(__dirname + "/data.json", "utf8"));
 	var res = autocompleteInput(tree) ;
 	console.log("\nfound: " + JSON.stringify(res,null,1));
 }
