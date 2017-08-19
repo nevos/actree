@@ -1,49 +1,39 @@
-var testTree = 
+var sampleTree = 
 {
-    letters:[
-    {
-        letter: "a",
-        ptr: {
-            letters:[
-            {
-                letter: "l",
-                id: "al",
-                ptr: {
-                    letters:[
-                    {
-                        letter: "e",
-                        id: "ale",
-                        ptr: null 
-                    },
-                    {
-                        letter: "i",
-                        id: "ali",
-                        ptr: {
-                            letters:[                            
-                                {                            
-                                letter: "v",
-                                id: "aliv",
-                                ptr: {        
-                                    letters:[
-                                    {                            
-                                        letter: "e",
-                                        id: "alive",
-                                        isWord: true,
-                                        ptr: null                           
-                                    }           
-                                    ]
-                                }
-                            }
-                            ]
-                        }           
+    a: {
+        id: "a",
+        l: {
+            id: "al",
+            i: {
+                id: "ali",
+                v: {        
+                    id: "aliv",
+                    e : {
+                        id: "alive",
+                        isWord: true,
                     }
-                    ]
+                },
+                k: {        
+                    id: "alik",
+                    e: {
+                        id: "alike",
+                        isWord: true,
+                    }
                 }
+            },
+            l: {
+                id: "all",
+                isWord: true,
             }
-            ]
         }
     },
-    ]
+    b: {
+        id: "b",
+        e: {
+            id: "be",
+            isWord: true,            
+        }
+    }
 }
 
-module.exports.sampleTree = testTree ;
+module.exports.sampleTree = sampleTree ;
