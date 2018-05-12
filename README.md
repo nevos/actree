@@ -1,8 +1,11 @@
 actree
 =========
 
-Creates a tree for fast and efficient autocomplete string queries. The library doesnt rely on external libs.
-The repo includes a full english dictionary (data.json) decoded into a tree format, and ready for autocomplate use. 
+Creates a tree for fast and efficient autocomplete string queries. The library doesnt rely on external libs. (Trie search structure).
+
+O(m) efficiency (where m is the length of a search string).    
+
+The repo includes a full english dictionary (data.json) decoded into a tree format, and ready for autocomplate use.   
     
 Node.js install
 ===============

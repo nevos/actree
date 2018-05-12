@@ -1,6 +1,6 @@
 {
   "name": "actree",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Makes an auxilary tree structure to get O(m) efficient autocomplete results, (where m is the length of a search string), without use of external dependencies.<br /> The repo is holds a list of 300k english letter already formatted as tree and available for autocomplete testing",
   "main": "index.js",
   "repository": {
@@ -28,8 +28,8 @@
     "data structure",
     "abstract data type",
     "node",
-    "json"
-    "javascript"
+    "json",
+    "javascript",
     "creational",
     "associative array",
     "recursive",
